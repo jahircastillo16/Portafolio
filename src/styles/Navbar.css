@@ -1,0 +1,173 @@
+/* src/styles/Navbar.css */
+
+/* Estilos globales */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Barra de navegación */
+.navbar {
+  background-color: #00000000; /* Fondo transparente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  transition: background-color 0.3s ease; /* Transición de cambio de color de fondo */
+  top: 0;
+}
+
+/* Botón del menú hamburguesa (inicialmente oculto) */
+.menu-btn {
+  cursor: pointer;
+  display: none;
+  flex-direction: column;
+}
+
+/* Botón del menú hamburguesa (visible) */
+.menu-btn {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  position: relative; /* Posicionamiento relativo para facilitar el posicionamiento del círculo */
+  right: -5px; /* Ajuste horizontal hacia la derecha */
+  top: 10px; /* Ajuste vertical hacia abajo */
+  transition: transform 0.3s ease; /* Transición para suavizar el desplazamiento */
+  border-radius: 50%; /* Agregar bordes redondeados para formar un círculo */
+  background-color: #000000af; /* Color de fondo del círculo */
+  padding: 10px; /* Ajuste para dar espacio al contenido dentro del círculo */
+}
+
+/* Estilo del botón cuando está abierto (menú hamburguesa visible) */
+.menu-btn.open {
+  transform: translateX(20em); /* Desplazamiento de 20em cuando está abierto */
+}
+
+/* Elementos de la hamburguesa */
+.menu-btn-burger {
+  width: 30px;
+  height: 3px;
+  background-color: #149ddd;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/* Transformación de las líneas de la hamburguesa al hacer clic */
+.menu-btn-burger.line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.menu-btn-burger.line2 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/* Lista de navegación */
+.nav-list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos de los enlaces en la lista de navegación */
+.nav-list a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 15px;
+  font-size: 1.2em;
+  position: relative;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+/* Estilos al pasar el mouse sobre los enlaces */
+.nav-list a:hover {
+  color: #149ddd;
+  font-weight: bold;
+}
+
+/* Efecto de subrayado al pasar el mouse sobre los enlaces */
+.nav-list a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: #149ddd;
+  position: absolute;
+  bottom: px; /* Ajuste para colocar el subrayado en la posición correcta */
+  left: 50%;
+  transform: translateX(-50%);
+  transition: width 0.3s ease;
+}
+
+/* Efecto de subrayado al pasar el mouse sobre los enlaces (expandido) */
+.nav-list a:hover::after {
+  width: 100%;
+}
+
+/* Define la animación de despliegue de la lista en dispositivos móviles */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Hacer pegajoso (sticky) en pantallas más pequeñas también */
+@media screen and (max-width: 768px) {
+  .navbar {
+    justify-content: space-between;
+  }
+
+  /* Lista del menú hamburguesa */
+  .nav-list {
+    flex-direction: column;
+    position: absolute;
+    padding-top: 1.5em;
+    padding-bottom: 0.5em;
+    top: 1px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    background-color: #000000;
+    opacity: 0.95;
+    display: none;
+    /* Aplica la animación al desplegar la lista */
+    animation: slideIn 0.3s ease;
+  }
+
+  /* Agrega margen inferior a los elementos de la lista */
+  .nav-list li {
+    margin-bottom: 1.5em; /* Puedes ajustar el valor según tus preferencias */
+  }
+
+  .menu-btn.open {
+    transform: translateX(0%);
+    z-index: 1;
+  }
+
+  .nav-list.open {
+    display: flex;
+    margin-bottom: 2em;
+  }
+
+  
+}
+
+/* Estilos adicionales para pantallas más grandes */
+@media screen and (min-width: 769px) {
+  .navbar.scrolled {
+    background-color: #000000c1; /* Cambia el color del fondo cuando se desplaza hacia abajo */
+    transition: background-color 0.5s ease; /* Ajusta el valor del tiempo para ralentizar la transición */
+  }
+
+  .menu-btn {
+    display: none;
+  }
+}

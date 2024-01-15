@@ -1,0 +1,179 @@
+
+
+.cv-container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+  background-color: #ffffff; /* Celeste claro */
+  color: #000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #000;
+}
+
+.section-title {
+  text-align: center;
+}
+
+.timeline-section {
+  display: flex;
+  justify-content: space-between; /* Agregamos espaciado entre las dos secciones */
+  max-width: 100%; /* Garantiza que no haya desbordamiento horizontal */
+ 
+  margin-bottom: 20px;/*espaciado entre experiencias y educacion*/
+}
+
+.timeline {
+  position: relative;
+  width: 45%;
+}
+
+.timeline-item {
+  margin-bottom: 30px;
+}
+
+.timeline-date {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #149ddd; /* Azul para la fecha */
+}
+
+.timeline-content {
+  margin-left: 20px;
+  text-align: left;
+}
+
+.timeline-content p {
+  margin: 0;
+  margin-top: 10px;
+}
+
+.timeline-item ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.experience-link a {
+  color: #149ddd; /* Azul para el enlace */
+  text-decoration: none;
+}
+
+.experience-link a:hover {
+  text-decoration: underline;
+}
+
+.experience-title,
+.education-title {
+  text-align: left;
+}
+
+
+
+
+
+
+.experience-link a {
+  color: #149ddd; /* Azul para el enlace */
+  text-decoration: none;
+}
+
+.experience-link a:hover {
+  text-decoration: underline;
+}
+
+.experience-title,
+.education-title {
+  text-align: left;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-left: -5px;
+  margin-top: 30px;
+}
+
+.skills-list li {
+  background-color: #149ddd; /* Color de fondo */
+  color: #fff; /* Color del texto */
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 0;
+  display: inline-block;
+}
+
+
+.language-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.language-item {
+  width: 30%; /* Ajusta según el espacio deseado entre las columnas */
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto; /* Centra el bloque dentro de su contenedor */
+}
+
+.language-bar {
+  background-color: #177494; /* Color de la barra */
+  height: 15px;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 100%; /* Relleno completo */
+  margin-top: 5px; /* Espacio entre el texto y la barra */
+}
+
+.bar-fill {
+  background-color: #149ddd; /* Color de relleno de la barra */
+  height: 100%;
+}
+
+.language-name {
+  font-weight: bold;
+}
+
+/* Consulta de medios para dispositivos móviles */
+@media screen and (max-width: 768px) {
+
+
+  .timeline-section,
+  .language-items {
+    flex-direction: column; /* Cambia a una columna en dispositivos móviles */
+  }
+  .skills-list {
+    flex-direction: row;
+    align-items: center;
+    margin-left: -35px;
+  }
+
+
+  .timeline,
+  .language-item {
+    width: 100%;
+  }
+
+  .skills-list li {
+    width: 30%; /* Ancho completo en dispositivos móviles */
+    
+  }
+
+  .language-bar {
+    width: 70%; /* Ancho completo en dispositivos móviles */
+  }
+
+  .timeline-section{
+    margin-bottom: -20px;/*espaciado entre experiencias y educacion*/
+  }
+  
+}
+
