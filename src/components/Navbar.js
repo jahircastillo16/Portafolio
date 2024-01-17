@@ -48,7 +48,7 @@ const Navbar = () => {
         <div className={`menu-btn-burger ${isOpen ? 'line2' : ''}`}></div>
       </div>
       <ul className={`nav-list ${isOpen ? 'open' : ''}`}>
-        <li><a href="/" onClick={closeNavbar}>Inicio</a></li>
+        <li><a href="#inicio" onClick={closeNavbar}>Inicio</a></li>
         <li><a href="#sobremi" onClick={closeNavbar}>Sobre Mí</a></li>
         <li><a href="#cv" onClick={closeNavbar}>CV</a></li>
         <li><a href="#proyectos" onClick={closeNavbar}>Proyectos</a></li>
