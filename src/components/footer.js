@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="footer-links">
           <h2>Enlaces</h2>
           <ul>
-            <li><a href="/inicio">Inicio</a></li>
+            <li><a href="#inicio">Inicio</a></li>
             <li><a href="#sobremi">Sobre Mí</a></li>
             <li><a href="#proyectos">Proyectos</a></li>
             <li><a href="#distinciones">Distinciones</a></li>
