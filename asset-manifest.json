@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portafolio/static/css/main.05395cfb.css",
-    "main.js": "/Portafolio/static/js/main.a08c726e.js",
+    "main.js": "/Portafolio/static/js/main.0bd61b6a.js",
     "static/media/foto.jpeg": "/Portafolio/static/media/foto.ae591bdfe68700f79680.jpeg",
     "static/media/amitic2021.jpg": "/Portafolio/static/media/amitic2021.2f798072461ea8034b51.jpg",
     "static/media/amitic2022.jpeg": "/Portafolio/static/media/amitic2022.5c89e1f42abd597954e9.jpeg",
@@ -16,10 +16,10 @@
     "static/media/aws.jpg": "/Portafolio/static/media/aws.2344ba0136eb986a6fd4.jpg",
     "index.html": "/Portafolio/index.html",
     "main.05395cfb.css.map": "/Portafolio/static/css/main.05395cfb.css.map",
-    "main.a08c726e.js.map": "/Portafolio/static/js/main.a08c726e.js.map"
+    "main.0bd61b6a.js.map": "/Portafolio/static/js/main.0bd61b6a.js.map"
   },
   "entrypoints": [
     "static/css/main.05395cfb.css",
-    "static/js/main.a08c726e.js"
+    "static/js/main.0bd61b6a.js"
   ]
 }
