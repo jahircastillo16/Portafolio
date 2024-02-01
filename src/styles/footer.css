@@ -60,17 +60,50 @@
   .footer-bottom p {
     font-size: 14px;
   }
+
+
+
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.social-icons img {
+  width: 30px; /* Ajusta el tamaño según tus necesidades */
+  margin-right: 15px; /* Espaciado entre los iconos */
+  border-radius: 50%; /* Hace que la imagen sea circular */
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Transiciones suaves para color y escala */
+}
+
+.social-icons img:hover {
+  background-color: #3498db; /* Cambia el color al pasar el ratón sobre la imagen */
+  transform: scale(1.2); /* Cambia la escala para un efecto visual */
+}
+
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
   
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
     .footer-content {
         display: flex;
         justify-content: space-between;
         max-width: 1200px;
         margin: 0 auto;
         flex-direction: column;
+        padding: 2.5em;
+        
     }
     .footer-logo {
         text-align: center;
     }
+
+
   }
   

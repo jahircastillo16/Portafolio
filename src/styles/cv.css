@@ -101,12 +101,12 @@ h2 {
 }
 
 .skills-list li {
-  background-color: #149ddd; /* Color de fondo */
-  color: #fff; /* Color del texto */
+  color: #000000; /* Color del texto */
   padding: 10px;
   border-radius: 5px;
   margin: 5px 0;
   display: inline-block;
+  font-weight: bold;
 }
 
 

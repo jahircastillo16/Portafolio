@@ -89,7 +89,7 @@
   text-decoration: underline;
 }
 /* src/styles/Sobremi.css */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .sobremi-container{
     padding: 25px;
   }

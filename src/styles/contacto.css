@@ -31,6 +31,11 @@
     margin: 15px;
     flex: 1 1 300px; /* Ajusta según sea necesario */
   }
+
+  .info-item a:hover{
+    color: #3498db;
+    font-weight: bold;
+  }
   
   .info-item span {
     color: #3498db;

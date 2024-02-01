@@ -9,7 +9,7 @@ const Contacto = () => {
       <div className="contacto-info">
         <div className="info-item">
           <span>Email:</span>
-          <p>jahir.castillo2@utp.ac.pa o jahir.5656@gmail.com</p>
+          <p>jahir.castillo2@utp.ac.pa</p>
         </div>
         <div className="info-item">
           <span>Teléfono:</span>
@@ -17,14 +17,15 @@ const Contacto = () => {
         </div>
         <div className="info-item">
           <span>Dirección:</span>
-          <p>Cuba</p>
+          <p>Panamá</p>
         </div>
         <div className="info-item">
           <span>Redes Sociales:</span>
           <p>
-            <a href="https://www.linkedin.com/in/jahir-castillo/">LinkedIn</a>,{' '}
-            <a href="https://github.com/jahir175">GitHub</a>,{' '}
-            <a href="https://twitter.com/jahir_5656">Twitter</a>
+            <a href="https://www.linkedin.com/in/jahir-castillo-630564124/">LinkedIn</a>,{' '}
+            <a href="https://github.com/rahajcas">GitHub</a>,{' '}
+            <a href="https://scholar.google.com/citations?user=ImZQf6MAAAAJ&hl=es">Google Scholar</a>,{' '}
+            <a href="https://www.instagram.com/jahir.cast24/">Instagram</a>
           </p>
         </div>
       </div>
