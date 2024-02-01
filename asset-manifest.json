@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portafolio/static/css/main.030814b5.css",
-    "main.js": "/Portafolio/static/js/main.5d92e5fa.js",
+    "main.js": "/Portafolio/static/js/main.36acdf46.js",
     "static/media/fondo.jpeg": "/Portafolio/static/media/fondo.260cdbd28bb0cc4a646e.jpeg",
     "static/media/foto.jpeg": "/Portafolio/static/media/foto.ae591bdfe68700f79680.jpeg",
     "static/media/amitic2021.jpg": "/Portafolio/static/media/amitic2021.2f798072461ea8034b51.jpg",
@@ -20,10 +20,10 @@
     "static/media/github.png": "/Portafolio/static/media/github.a25c02a7cc5da5a45239.png",
     "index.html": "/Portafolio/index.html",
     "main.030814b5.css.map": "/Portafolio/static/css/main.030814b5.css.map",
-    "main.5d92e5fa.js.map": "/Portafolio/static/js/main.5d92e5fa.js.map"
+    "main.36acdf46.js.map": "/Portafolio/static/js/main.36acdf46.js.map"
   },
   "entrypoints": [
     "static/css/main.030814b5.css",
-    "static/js/main.5d92e5fa.js"
+    "static/js/main.36acdf46.js"
   ]
 }
