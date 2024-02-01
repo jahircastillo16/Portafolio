@@ -54,7 +54,7 @@ const Sobremi = () => {
           <li><strong>Nacimiento:</strong> 16 diciembre de 1999</li>
           <li><strong>Instagram:</strong> <a href="https://www.instagram.com/jahir.cast24/" target="_blank" rel="noopener noreferrer">jahir.cast24</a></li>
           <li><strong>Teléfono:</strong> +507 6689-25??</li>
-          <li><strong>Dirección:</strong> Cuba</li>
+          <li><strong>Dirección:</strong> Panamá</li>
           <li><strong>Educación:</strong> Estudiante Universitario 4to año</li>
           <li><strong>Correo Electrónico:</strong> jahir.castillo2@utp.ac.pa</li>
           <li><strong>Ocupación:</strong> Estudiante</li>
